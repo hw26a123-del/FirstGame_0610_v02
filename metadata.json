@@ -1,0 +1,6 @@
+{
+  "name": "Vertical Jump Climber",
+  "description": "空高く登り続ける、爽快な縦スクロール・ジャンプアクションゲーム。PCのキーボード操作、モバイルのタッチ操作の両方に対応し、ハイスコア記録や演出にこだわったモダンな設計です。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

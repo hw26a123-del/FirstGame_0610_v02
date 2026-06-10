@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Space+Grotesk:wght@500;700&family=JetBrains+Mono:wght@700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", "system-ui", sans-serif;
+  --font-display: "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+/* Sleek Interface Theme Additions */
+body {
+  background-color: #020617;
+  color: #f8fafc;
+  background-image: radial-gradient(circle at center, #0f172a 0%, #020617 100%);
+  min-height: 100vh;
+}
+
+.sleek-grid {
+  position: fixed;
+  inset: 0;
+  background-image: 
+    linear-gradient(to right, rgba(30, 41, 59, 0.25) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(30, 41, 59, 0.25) 1px, transparent 1px);
+  background-size: 64px 64px;
+  pointer-events: none;
+  z-index: 1;
+}
+
+/* Translucent HUD Panel with high tech borders */
+.hud-panel-sleek {
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(56, 189, 248, 0.15);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4), inset 0 1px 1px rgba(255, 255, 255, 0.05);
+}
+
+.hud-panel-glow-cyan {
+  border-color: rgba(56, 189, 248, 0.4);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.15), inset 0 1px 2px rgba(56, 189, 248, 0.1);
+}
+
+.hud-panel-glow-pink {
+  border-color: rgba(244, 114, 182, 0.4);
+  box-shadow: 0 0 20px rgba(244, 114, 182, 0.15);
+}
+
+.hud-panel-glow-amber {
+  border-color: rgba(251, 191, 36, 0.4);
+  box-shadow: 0 0 20px rgba(251, 191, 36, 0.15);
+}
+
+.stat-label-sleek {
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #94a3b8;
+  font-weight: 700;
+}
+
+.stat-value-sleek {
+  font-family: "JetBrains Mono", monospace;
+  font-weight: 900;
+  letter-spacing: -0.025em;
+  text-shadow: 0 0 8px currentColor;
+}
+
